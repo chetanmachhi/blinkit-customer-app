@@ -7,7 +7,8 @@ const envSchema = z.object({
 });
 
 const rawEnv = {
-  API_BASE_URL: Config.API_BASE_URL || "http://127.0.0.1:3000/api",
+  API_BASE_URL:
+    Config.API_BASE_URL || "https://blinkit-backend-2bv1.onrender.com/api",
   DEFAULT_STORE_ID: Config.DEFAULT_STORE_ID || "6ad8eebdfce460c6fde26605",
 };
 
